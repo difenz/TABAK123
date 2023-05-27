@@ -29,4 +29,3 @@ window.onclick = function (event) {
     }
   }
 };
-
