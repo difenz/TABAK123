@@ -1,51 +1,50 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 body {
   overflow-x: hidden;
   overflow-y: none;
   background-color: #141414;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -50px;
 }
 
 .logo img {
-    width: 300px;
-    height: 300px;
+  width: 300px;
+  height: 300px;
 }
 
 .buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .button {
-    color: #141414;
-    font-size: 24px;
-    font-weight: bold;
-    background-color: white;
-    border-radius: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    width: 200px;
-    transition: background-color 0.2s ease-in-out;
-    cursor: pointer;
+  color: #141414;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  width: 200px;
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 .button a {
@@ -53,122 +52,121 @@ body {
 }
 
 .line {
-    width: 400px;
+  width: 400px;
 }
 
 .button:hover {
-    background-color: #FFC804;
+  background-color: #ffc804;
 }
 
 .radio {
-    width: 160px;
-    margin-top: 10px;
+  width: 160px;
+  margin-top: 10px;
 }
 
 .sales {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 .buttonsbottom {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
 }
 
 .buttonsbottomdelivery {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
 }
 
 .delivery {
-    width: 400px;
+  width: 400px;
 }
 
 .social-networks {
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    gap: 150px;
-    align-items: center;
-    flex-direction: row;
-    z-index: 1;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  align-items: center;
+  flex-direction: row;
+  z-index: 1;
 }
 
 .social-networks img {
-    width: 35px;
-    transition: opacity 0.2s ease-in-out;
-    cursor: pointer;
+  width: 35px;
+  transition: opacity 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 .social-networks img:hover {
-    opacity: 50%;
+  opacity: 50%;
 }
 
 .lenta img {
-    margin-top: -50px;
-    width: 1500px;
+  margin-top: -50px;
+  width: 1500px;
 }
 
 .modal {
-    width: 400px;
+  width: 400px;
 }
 
-@media screen and (max-width: 720px) { 
-    .lenta img {
-        margin: 0;
-        width: 500px;
-    }
-
-    .icons {
-      gap: 70px !important;
-    }
-
-    .container {
-      margin: 0;
-      padding: 0;
-    }
-
-    .iconsdelivery {
-      gap: 80px !important;
-    }
-
-    .icons {
-      gap: 80px !important;
-    }
-
-    .buttonsbottom {
-      width: 360px;
-    }
-
-    body {
-      position: fixed;
-    }
-
-    .delivery {
-      width: 330px;
+@media screen and (max-width: 720px) {
+  .lenta img {
+    margin: 0;
+    width: 500px;
   }
 
-    .social-networks {
-        gap: 100px;
-    }
+  .icons {
+    gap: 70px !important;
+  }
 
-    .line {
-        width: 330px;
-    }
+  .container {
+    margin: 0;
+    padding: 0;
+  }
 
-    .modal-content  {
-      width: 300px !important;
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-    
+  .iconsdelivery {
+    gap: 80px !important;
+  }
+
+  .icons {
+    gap: 80px !important;
+  }
+
+  .buttonsbottom {
+    width: 360px;
+  }
+
+  body {
+    position: fixed;
+  }
+
+  .delivery {
+    width: 330px;
+  }
+
+  .social-networks {
+    gap: 100px;
+  }
+
+  .line {
+    width: 330px;
+  }
+
+  .modal-content {
+    width: 300px !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 }
 
 .modal-body {
@@ -176,10 +174,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 
-.modal-body h3 { 
+.modal-body h3 {
   display: flex;
   justify-content: start;
 }
@@ -198,7 +195,6 @@ body {
   color: #222;
   position: relative;
   min-height: 100vh;
-
 }
 
 section {
@@ -268,7 +264,7 @@ The juicy stuff
 }
 
 .btn:hover {
-  background-color: #FFC804;
+  background-color: #ffc804;
   color: #141414;
 }
 
@@ -293,7 +289,7 @@ The juicy stuff
   margin-bottom: 20px;
 }
 
-.modal-header h3{
+.modal-header h3 {
   font-size: 28px;
 }
 
@@ -336,7 +332,7 @@ The juicy stuff
 }
 
 .telegram-delivery {
-  filter:invert(1);
+  filter: invert(1);
 }
 
 .whatsappp img {
@@ -346,7 +342,6 @@ The juicy stuff
 .whatsapp img {
   width: 40px;
 }
-
 
 .telegram-deliveryy img {
   width: 40px;
@@ -373,7 +368,7 @@ The juicy stuff
 }
 
 small {
-  color:#8d8d8d
+  color: #8d8d8d;
 }
 
 .iconsdelivery {
