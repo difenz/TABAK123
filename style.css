@@ -17,7 +17,7 @@ body::-webkit-scrollbar {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 
@@ -124,6 +124,27 @@ body {
   width: 100px;
 }
 
+.mainbutton {
+  color: #141414;
+  font-size: 24px;
+  font-weight: 600;
+  border: 0;
+  background-color: #ffc804;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  width: 200px;
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.mainbutton:hover {
+  background-color: white;
+}
+
 .line {
   width: 400px;
 }
@@ -207,6 +228,9 @@ body {
     font-size: 20px !important;
   }
 
+  .header {
+    margin-top: -10px !important;
+  }
 
   body {
     width: 100%;
