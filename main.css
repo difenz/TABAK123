@@ -196,7 +196,8 @@ body {
   transition: color 0.2s ease-in;
 }
 
-.stores-list:hover {
+.stores-list:hover,
+.stores-list:focus {
   color: #ffc804;
 }
 
