@@ -169,7 +169,7 @@ body {
   }
 
   .modal {
-  top: 0px !important;
+  top: 50px !important;
   }
 
   .social-networks {
@@ -183,7 +183,7 @@ body {
   .modal-content {
     width: 300px !important;
     position: absolute;
-    top: 0;
+    top: -100px !important;
     left: 0;
   }
 }
