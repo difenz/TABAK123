@@ -47,6 +47,18 @@ body {
 
 .store-title {
   color: white;
+  margin-bottom: 50px;
+  margin-top: -15px;
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+}
+
+.store-titles {
+  color: white;
   margin-top: -15px;
   font-weight: 600;
   font-size: 16px;
